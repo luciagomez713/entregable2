@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background-color: #F2EEBE;
+}
+
+/*HEADER*/
+header {
+    background-color: #73AC5B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 115px;
+    padding: 5px 10%;
+}
+
+/*LOGO HEADER*/
+body .header .logo img {
+    height: 100px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+body .header .logo {
+    cursor: pointer;
+}
+
+body .header .logo img:hover {
+    transform: scale(1.2);
+}
+
+/*NAVBAR*/
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a {
+    font-size: 900;
+    color: #1D2B17;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-links li a:hover {
+    color: #F2EEBE;
+    transition: all 0.1s;
+}
+
+/*FOTO SANGUCHE*/
+.sanguche1 {
+    text-align: center;
+    padding: 15px 10%;
+
+}
+
+.vinos {
+    text-align: center;
+}
+
+.vinos img {
+    text-align: center;
+    padding: 15px 10%;
+    height: 500px;
+
+}
+
+/*FOOTER*/
+footer {
+    background-color: #73AC5B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    padding: 5px 10%;
+}
+
+/*logo*/
+.footer .logo img {
+    height: 80px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.footer .logo {
+    cursor: pointer;
+}
+
+.footer .logo img:hover {
+    transform: scale(1.2);
+}
