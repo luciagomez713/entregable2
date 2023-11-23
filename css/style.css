@@ -62,11 +62,31 @@ body .header .logo img:hover {
 }
 
 /*FOTO SANGUCHE*/
-.sanguche1 {
+.carrusel {
     text-align: center;
-    padding: 15px 10%;
+    padding: 30px;
+    margin-bottom: 30px; 
+    max-width: 800px;
+        /* Establece un ancho máximo para el carrusel */
+        margin: 0 auto;
+        /* Centra el carrusel en la página */
+        overflow: hidden;
+        /* Evita que las imágenes se salgan del contenedor */
+        
 
+    
 }
+
+.carousel-item{
+    width: 100%;
+        /* Establece el ancho de la imagen al 100% del contenedor */
+        height: 800px;
+        /* Permite que la altura se ajuste proporcionalmente al ancho */
+        display: block;
+        /* Elimina el espacio adicional debajo de la imagen */
+        transition: opacity 0.5s ease-in-out
+}
+
 
 .vinos {
     text-align: center;
