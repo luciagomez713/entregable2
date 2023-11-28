@@ -1,13 +1,13 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
     font-size:1.5rem;
     font-family: 'Playfair Display', serif;
 }
 
 body{
     background-color: #F2EEBE;
-    
 }
 
 /*---HEADER---*/
@@ -207,3 +207,15 @@ footer{
     list-style: none;
     font-size: 25px;
  }
+
+ /*VINOS Y PICANTES*/
+ .titulos{
+    background-color:#5C854D;
+    color: antiquewhite;
+    margin-bottom: 40PX;
+    padding: 60px;
+    text-align: center;
+    font-size: 70px;
+ }
+
+ 
