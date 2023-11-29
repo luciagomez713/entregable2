@@ -1,221 +1,220 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-size:1.5rem;
-    font-family: 'Playfair Display', serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
 }
 
-body{
-    background-color: #F2EEBE;
+body {
+  background-color: #f2eebe;
 }
 
 /*---HEADER---*/
-header{
-    background-color: #73AC5B;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 115px;
-    padding: 2rem;
-    margin:0;
+header {
+  background-color: #73ac5b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 115px;
+  padding: 2rem;
+  margin: 0;
 }
-
-
-
 
 /*LOGO HEADER*/
-body .header .logo img{
-    height:100px;
-    width: 90px;
-    transition: all 0.3s;
+body .header .logo img {
+  height: 100px;
+  width: 90px;
+  transition: all 0.3s;
 }
 
-body .header .logo{
-    cursor: pointer;
+body .header .logo {
+  cursor: pointer;
 }
 
-body .header .logo img:hover{
-    transform: scale(1.2);
+body .header .logo img:hover {
+  transform: scale(1.2);
 }
 
 /*---NAVBAR---*/
-.header .nav-links{
-    list-style: none;
+.header .nav-links {
+  list-style: none;
 }
 
-.header .nav-links li{
-    display: inline-block;
-    padding: 0 20px;
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
 }
 
-.header .nav-links a{
-    font-size: 1.2rem;
-    color: #1D2B17;
-    text-decoration: none;
-    transition: all 0.3s;
+.header .nav-links a {
+  font-size: 1.2rem;
+  color: #1d2b17;
+  text-decoration: none;
+  transition: all 0.3s;
 }
 
-.header .nav-links li:hover{
-    transform: scale(1.2);
+.header .nav-links li:hover {
+  transform: scale(1.2);
 }
 
-.header .nav-links li a:hover{
-    color: #F2EEBE;
-    transition: all 0.1s;
+.header .nav-links li a:hover {
+  color: #f2eebe;
+  transition: all 0.1s;
 }
-
 
 /* MEDIAQUERIS PARA TABLET*/
-@media(max-width:952px){
-    body .header .logo img{
-        padding: 15px;
-    }
-    .header .nav-links a{
-        font-size:16px; 
-    }
-    footer section ul li {
-        font-size: 20px;
-    }
-    .mapa{
-        display: none;
-    }
-    
+@media (max-width: 952px) {
+  body .header .logo img {
+    padding: 15px;
+  }
+  .header .nav-links a {
+    font-size: 16px;
+  }
+  footer section ul li {
+    font-size: 20px;
+  }
+  .mapa {
+    display: none;
+  }
 }
 
 /* MEDIAQUERIS PARA CELULAR*/
-@media(max-width:858px){
-    
-    .nav-links{
-        font-size: 10px;
-    }
-    .card{
-        width: 300px;
-            /* Ajusta el ancho según tus necesidades */
-     height: 200px;
-            /* Ajusta la altura según tus necesidades */
-        }
-    
-
+@media (max-width: 858px) {
+  .nav-links {
+    font-size: 10px;
+  }
+  .card {
+    width: 300px;
+    /* Ajusta el ancho según tus necesidades */
+    height: 200px;
+    /* Ajusta la altura según tus necesidades */
+  }
 }
-
 
 /*CARUUSEL*/
-.carousel{
-    text-align: center;
-    padding: 80px;
-    margin-bottom: 50px; 
-    max-width: 900px;
-        /* Establece un ancho máximo para el carrusel */
-        margin: 0 auto;
-        /* Centra el carrusel en la página */
-        
-        /* Evita que las imágenes se salgan del contenedor */
+.carousel {
+  text-align: center;
+  padding: 80px;
+  margin-bottom: 50px;
+  max-width: 900px;
+  /* Establece un ancho máximo para el carrusel */
+  margin: 0 auto;
+  /* Centra el carrusel en la página */
+
+  /* Evita que las imágenes se salgan del contenedor */
 }
 
-.carousel-item{
-    width: 300px;
-        /* Establece el ancho de la imagen al 100% del contenedor */
-      
-        /* Permite que la altura se ajuste proporcionalmente al ancho */
-        display: flex;
-        /* Elimina el espacio adicional debajo de la imagen */
-        padding-bottom: 30px;
-        
-        
-}
+.carousel-item {
+  width: 300px;
+  /* Establece el ancho de la imagen al 100% del contenedor */
 
+  /* Permite que la altura se ajuste proporcionalmente al ancho */
+  display: flex;
+  /* Elimina el espacio adicional debajo de la imagen */
+  padding-bottom: 30px;
+}
 
 /*texto olivas*/
-div .text-olivas{
-    text-align: center;
-    margin: 0;
-    padding:80px;
-    font-size: 30px;
-    color: #1D2B17;
-    background-color: #73AC5B;
-    
+div .text-olivas {
+  text-align: center;
+  margin: 0;
+  padding: 80px;
+  font-size: 30px;
+  color: #1d2b17;
+  background-color: #73ac5b;
 }
 
 /*cards*/
-.card{ 
-    width: 30rem;
-    height: auto;
-    display: grid;
-    transition: 0.5s;
+.card {
+  width: 30rem;
+  height: auto;
+  display: grid;
+  transition: 0.5s;
 }
-.card:hover{
-transform: scale(1.03);
-}
-
-.col{
-    display: flex;
-    justify-content: space-between;
+.card:hover {
+  transform: scale(1.03);
 }
 
-.row{
-    padding:10rem;
-    margin: 5rem;
+.col {
+  display: flex;
+  justify-content: space-between;
 }
-.card-body a{
-    text-align: center;
-    color: #1D2B17;
-    text-decoration: none;
+
+.img-border {
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid-vinos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 3rem;
+}
+
+.row {
+  padding: 10rem;
+  margin: 5rem;
+}
+.card-body a {
+  text-align: center;
+  color: #1d2b17;
+  text-decoration: none;
 }
 
 /*---FOOTER---*/
-footer{
-    background-color: #73AC5B;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 300px;
-    
+footer {
+  background-color: #73ac5b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
 }
 
 /*MAPA fotter*/
-.mapa{
-    display: flex;
-    border-radius: 30px;
-   
+.mapa {
+  display: flex;
+  border-radius: 30px;
 }
 
-.calle{
-    display:flex;
-    font-size: 20px;
+.calle {
+  display: flex;
+  font-size: 20px;
 }
 
 /*logo footer*/
-footer{
-    margin-left: 0;
+footer {
+  margin-left: 0;
 }
-.footer .logo img{
-    height: 80px;
-    width: auto;
-    transition: all 0.3s;
-    align-items: flex-end;
-}
-
-.footer .logo{
-    cursor: pointer;
+.footer .logo img {
+  height: 80px;
+  width: auto;
+  transition: all 0.3s;
+  align-items: flex-end;
 }
 
-.footer .logo img:hover{
-    transform: scale(1.2);
+.footer .logo {
+  cursor: pointer;
 }
- #contacto{
-    list-style: none;
-    font-size: 25px;
- }
 
- /*VINOS Y PICANTES*/
- .titulos{
-    background-color:#5C854D;
-    color: antiquewhite;
-    margin-bottom: 40PX;
-    padding: 60px;
-    text-align: center;
-    font-size: 70px;
- }
+.footer .logo img:hover {
+  transform: scale(1.2);
+}
+#contacto {
+  list-style: none;
+  font-size: 25px;
+}
 
- 
+/*VINOS Y PICANTES*/
+.titulos {
+  background-color: #5c854d;
+  color: antiquewhite;
+  margin-bottom: 40px;
+  padding: 60px;
+  text-align: center;
+  font-size: 70px;
+}
