@@ -175,10 +175,20 @@ footer {
   height: 300px;
 }
 
+footer section ul li a {
+  color: #212529;
+  text-decoration: none;
+}
+
 /*MAPA fotter*/
 .mapa {
   display: flex;
   border-radius: 30px;
+}
+.mapa p {
+  top: 0;
+  left: 0;
+  margin-right: 150px;
 }
 
 .calle {
