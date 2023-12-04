@@ -149,13 +149,6 @@ div .text-olivas {
   box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.grid-vinos {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  margin: 3rem;
-}
-
 .row {
   padding: 10rem;
   margin: 5rem;
@@ -227,4 +220,11 @@ footer {
   padding: 60px;
   text-align: center;
   font-size: 70px;
+}
+
+.grid-vinos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 3rem;
 }
